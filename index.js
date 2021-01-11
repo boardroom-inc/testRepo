@@ -1,3 +1,4 @@
+
 // supported protocols
 export const protocols = {
   compound: {
@@ -17,6 +18,8 @@ export const protocols = {
     canPropose: false,
     hasOnchain: true,
     hasSnapshot: false,
+    logoImageName: "compound",
+    headerImageName: "compound",
   },
   uniswap: {
     name: "Uniswap",
@@ -43,6 +46,8 @@ export const protocols = {
     canPropose: false,
     hasOnchain: true,
     hasSnapshot: true,
+    logoImageName: "uniswap",
+    headerImageName: "uniswap",
   },
   synthetix: {
     name: "Synthetix",
@@ -60,7 +65,9 @@ export const protocols = {
     hasDelegation: false,
     hasOnchain: false,
     canPropose: false,
-    hasSnapshot: true
+    hasSnapshot: true,
+    logoImageName: "synthetix",
+    headerImageName: "synthetix",
   },
   yearn: {
     name: "Yearn",
@@ -107,6 +114,8 @@ export const protocols = {
     hasOnchain: true,
     canPropose: true,
     hasSnapshot: true,
+    logoImageName: "compound",
+    headerImageName: "compound",
   },
   powerpool: {
     name: "Powerpool",
@@ -125,6 +134,8 @@ export const protocols = {
     hasOnchain: true,
     canPropose: false,
     hasSnapshot: false,
+        logoImageName: "compound",
+    headerImageName: "compound",
   },
   rarible: {
     name: "Rarible",
@@ -148,7 +159,9 @@ export const protocols = {
     hasDelegation: false,
     canPropose: false,
     hasOnchain: false,
-    hasSnapshot: true
+    hasSnapshot: true,
+    logoImageName: "rarible",
+    headerImageName: "rarible",
   },
   pooltogether: {
     name: "PoolTogether",
@@ -167,6 +180,8 @@ export const protocols = {
     canPropose: false,
     hasOnchain: false,
     hasSnapshot: true,
+    logoImageName: "pooltogether",
+    headerImageName: "pooltogether",
   },
   gnosis: {
     name: "Gnosis",
@@ -185,6 +200,8 @@ export const protocols = {
     hasOnchain: false,
     canPropose: false,
     hasSnapshot: true, 
+    logoImageName: "gnosis",
+    headerImageName: "gnosis",
   },
   defidollar: {
     name: "Defi Dollar",
@@ -209,6 +226,8 @@ export const protocols = {
     canPropose: false,
     hasOnchain: false,
     hasSnapshot: true,
+    logoImageName: "defidollar",
+    headerImageName: "defidollar",
   },
   siren: {
     name: "Siren",
@@ -227,6 +246,8 @@ export const protocols = {
     hasOnchain: true,
     canPropose: false,
     hasSnapshot: false, 
+    logoImageName: "compound",
+    headerImageName: "compound",
   },
   aave: {
     name: "Aave",
@@ -251,6 +272,8 @@ export const protocols = {
     hasSnapshot: true,
     hasDelegation: true,
     hasOnchain: false,
+    logoImageName: "compound",
+    headerImageName: "compound",
   },
   yamv2: {
     name: "Yam",
@@ -268,6 +291,8 @@ export const protocols = {
     canPropose: false,
     hasOnchain: false,
     hasSnapshot: true,
+    logoImageName: "compound",
+    headerImageName: "compound",
     invalidSnapshots: [
       "Qmcij6T4qXom3aVYPewBj9oJEbqrwq9Xt63tsJUKmbNs4p",
       "QmfS9Td2Butihi8JZvZxSFMiWynpRoqFpSNBhEJ2m6C2DV",
@@ -334,7 +359,9 @@ export const protocols = {
     canPropose: false,
     hasSnapshot: true,
     hasDelegation: false,
-    hasOnchain: false
+    hasOnchain: false,
+    logoImageName: "indexCoop",
+    headerImageName: "indexCoop",
   },
   balancer: {
     name: "Balancer",
@@ -368,6 +395,9 @@ export const protocols = {
     canPropose: false,
     hasSnapshot: true,
     hasDelegation: false,
-    hasOnchain: false
+    hasOnchain: false,
+        logoImageName: "compound",
+    headerImageName: "compound",
   }
 };
+
