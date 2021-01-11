@@ -2,7 +2,7 @@
   "name": "boardroomInfo",
   "version": "1.0.0",
   "description": "Testing",
-  "main": "index.js",
+  "main": "index.ts",
   "repository": "https://github.com/boardroom-inc/testRepo.git",
   "author": "sudheer <sudheer.105@gmail.com>",
   "license": "MIT"
